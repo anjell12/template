@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Navbar Bootstrap</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Gantilah versi Font Awesome dengan yang terbaru jika diperlukan -->
+    <style>
+      /* Gaya untuk membuat ikon pengguna tetap di navbar */
+      @media (max-width: 767px) {
+        .navbar-collapse {
+          position: absolute;
+          top: 56px; /* Sesuaikan dengan tinggi navbar Anda */
+          right: 0;
+          left: 0;
+          background-color: #343a40; /* Sesuaikan dengan warna navbar Anda */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <marquee class="bg-dark p-3 text-light fixed-top" behavior="" direction=""
+      >Lorem ipsum dolor sit amet.</marquee
+    >
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mt-5 fixed-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Curiculum Vitae</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item ml-2 active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="#">Template</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="#">Edit CV</a>
+          </li>
+          <li class="nav-item ml-2">
+            <a class="nav-link" href="#">Template</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar-text">
+        <i class="fas fa-user-circle fa-2x text-light"></i>
+        <!-- Font Awesome user icon -->
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Versi Desktop -->
+    <div class="container-fluid mt-5 py-3 d-none d-lg-block">
+      <div class="row mt-5 py-2">
+        <!-- left -->
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  culpa aliquam quibusdam ex, reprehenderit, laudantium
+                  cupiditate amet iure explicabo consequuntur in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  culpa aliquam quibusdam ex, reprehenderit, laudantium
+                  cupiditate amet iure explicabo consequuntur in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  culpa aliquam quibusdam ex, reprehenderit, laudantium
+                  cupiditate amet iure explicabo consequuntur in.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- center -->
+        <div class="col-md-8">
+          <h1 class="text-center">Lorem ipsum dolor sit amet.</h1>
+          <div class="row">
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 1</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 2</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 3</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 4</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 5</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 6</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 7</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 8</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mb-2">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 9</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quos est distinctio, doloribus, molestias qui doloremque
+                    dolorum esse architecto maiores, animi quod deleniti
+                    pariatur aperiam quo.
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="col-md-2">
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  culpa aliquam quibusdam ex, reprehenderit, laudantium
+                  cupiditate amet iure explicabo consequuntur in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  culpa aliquam quibusdam ex, reprehenderit, laudantium
+                  cupiditate amet iure explicabo consequuntur in.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 mb-2">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                  culpa aliquam quibusdam ex, reprehenderit, laudantium
+                  cupiditate amet iure explicabo consequuntur in.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Versi Desktop -->
+
+    <!-- Versi Mobile -->
+    <div class="container-fluid mt-5 py-3 d-lg-none d-block">
+      <div class="row mt-5 p-2">
+        <h4 class="text-center">
+          Lorem ipsum dolor sit amet, consectetur adipisicing.
+        </h4>
+        <div class="col-12-md">
+          <div class="row flex-nowrap">
+            <div class="col-sm-6">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 1</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus quaerat fugit placeat sit fuga culpa esse
+                    necessitatibus laboriosam atque, unde totam reprehenderit
+                    praesentium inventore natus?
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 2</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus quaerat fugit placeat sit fuga culpa esse
+                    necessitatibus laboriosam atque, unde totam reprehenderit
+                    praesentium inventore natus?
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-md-12">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus quaerat fugit placeat sit fuga culpa esse
+                  necessitatibus laboriosam atque, unde totam reprehenderit
+                  praesentium inventore natus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row flex-nowrap">
+            <div class="col-sm-6">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 3</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus quaerat fugit placeat sit fuga culpa esse
+                    necessitatibus laboriosam atque, unde totam reprehenderit
+                    praesentium inventore natus?
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 4</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus quaerat fugit placeat sit fuga culpa esse
+                    necessitatibus laboriosam atque, unde totam reprehenderit
+                    praesentium inventore natus?
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-md-12">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus quaerat fugit placeat sit fuga culpa esse
+                  necessitatibus laboriosam atque, unde totam reprehenderit
+                  praesentium inventore natus?
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row flex-nowrap">
+            <div class="col-sm-6">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 5</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus quaerat fugit placeat sit fuga culpa esse
+                    necessitatibus laboriosam atque, unde totam reprehenderit
+                    praesentium inventore natus?
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card shadow">
+                <div class="card-header text-center"><h4>Template 6</h4></div>
+                <div class="card-body">
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusamus quaerat fugit placeat sit fuga culpa esse
+                    necessitatibus laboriosam atque, unde totam reprehenderit
+                    praesentium inventore natus?
+                  </p>
+                </div>
+                <div class="card-text ml-2 mr-2">
+                  <a class="btn btn-secondary w-100 mb-2" href=""
+                    ><i class="fas fa-eye"></i> Preview</a
+                  >
+                  <a class="btn btn-success w-100 mb-2" href=""
+                    ><i class="fas fa-download"></i> Download</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row p-2">
+            <div class="col-md-12">
+              <div class="card bg-warning">
+                <p class="p-3">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusamus quaerat fugit placeat sit fuga culpa esse
+                  necessitatibus laboriosam atque, unde totam reprehenderit
+                  praesentium inventore natus?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Versi Mobile -->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-light">
+      <!-- Section: Social media -->
+      <section
+        class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
+      >
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Sosial Media :</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i> Curiculum Vitae
+              </h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+                numquam omnis illo ad iste officia distinctio dolores animi
+                fugit aut!
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+              <p>
+                <a href="#!" class="text-reset">Angular</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">React</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Vue</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Laravel</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Template</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Edit CV</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Template</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> Jakarta, Indonesia</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
+        © 2023 Copyright:
+        <a class="text-reset fw-bold" href="#">Curiculum Vitae</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
